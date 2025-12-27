@@ -5,7 +5,7 @@ const Category = require("./models/categories");
 require("dotenv").config();
 
 // Connect to Atlas
-const DB_URI = "mongodb+srv://prem7456:Xxxrt19987524@cluster1.biu6bh6.mongodb.net/ecommerce?retryWrites=true&w=majority";
+const DB_URI = "mongodb+srv://user_id:user_password@cluster1.biu6bh6.mongodb.net/ecommerce?retryWrites=true&w=majority";
 
 mongoose.connect(DB_URI, {
   useNewUrlParser: true,
